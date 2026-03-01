@@ -1,0 +1,10 @@
+{
+    "id": "TR001",
+    "name": "Dentes de Poeira",
+    "type": "tropa",
+    "cost": 0,
+    "power": 1,
+    "toughness": 2,
+    "effects": [],
+    "image": ""
+}
