@@ -1,0 +1,12 @@
+{
+    "id": "IT001",
+    "name": "Adaga Enferrujada",
+    "type": "item",
+    "cost": 0,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "ATK +1 (se entrar em campo anexe a uma tropa)"
+    ],
+    "image": ""
+}

@@ -1,0 +1,12 @@
+{
+    "id": "RE005",
+    "name": "Explosao defensiva",
+    "type": "reacao",
+    "cost": 3,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "Causa 3 de dano a todas as tropas no campo"
+    ],
+    "image": ""
+}

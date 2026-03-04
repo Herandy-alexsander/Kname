@@ -1,0 +1,10 @@
+{
+    "id": "IT002",
+    "name": "Livro Lastimoso",
+    "type": "item",
+    "cost": 0,
+    "power": 0,
+    "toughness": 0,
+    "effects": [],
+    "image": ""
+}

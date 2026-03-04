@@ -1,0 +1,12 @@
+{
+    "id": "RE006",
+    "name": "Possibilidade",
+    "type": "reacao",
+    "cost": 2,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "Descarte sua mão e compre aquela quantidade de cartas"
+    ],
+    "image": ""
+}

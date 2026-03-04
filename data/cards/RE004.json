@@ -1,0 +1,12 @@
+{
+    "id": "RE004",
+    "name": "Alem do caminho",
+    "type": "reacao",
+    "cost": 1,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "Devolva a tropa alvo do campo de batalha para a mão de seu dono"
+    ],
+    "image": ""
+}

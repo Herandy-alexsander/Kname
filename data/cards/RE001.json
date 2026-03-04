@@ -1,0 +1,12 @@
+{
+    "id": "RE001",
+    "name": "Estar Preparado",
+    "type": "reacao",
+    "cost": 0,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "Reduz o dano do ataque em 1"
+    ],
+    "image": ""
+}

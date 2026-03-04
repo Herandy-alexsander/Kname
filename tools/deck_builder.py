@@ -1,5 +1,7 @@
 from application.deck_service import DeckService
 from infrastructure.card_repository import CardRepository
+import tkinter as tk
+from tkinter import filedialog
 
 
 class DeckBuilder:
@@ -10,30 +12,64 @@ class DeckBuilder:
         self.repository.load_cards()
 
     def start(self):
-        print("=== DECK BUILDER ===")
+        print("=== DECK BUILDER (Importar por TXT) ===")
+
         deck_name = input("Nome do deck: ")
 
-        print("\nCartas disponíveis:")
-        for card in self.repository.get_all_cards():
-            print(f"{card.id} - {card.name}")
+        file_path = self._select_file()
 
-        deck_cards = []
+        if not file_path:
+            print("Nenhum arquivo selecionado.")
+            return
 
-        print("\nAdicione cartas pelo ID (digite 'fim' para parar):")
-
-        while len(deck_cards) < 40:
-            print(f"Cartas no deck: {len(deck_cards)}/40")
-            card_id = input("ID da carta: ")
-
-            if card_id.lower() == "fim":
-                break
-
-            deck_cards.append(card_id)
+        deck_cards = self._parse_txt(file_path)
 
         try:
             self.service.save_deck(deck_name, deck_cards)
         except ValueError as e:
             print("Erro:", e)
+
+    # ===============================
+    # Abrir janela para selecionar TXT
+    # ===============================
+    def _select_file(self):
+        root = tk.Tk()
+        root.withdraw()
+        return filedialog.askopenfilename(
+            title="Selecione o arquivo do deck",
+            filetypes=[("Text files", "*.txt")]
+        )
+
+    # ===============================
+    # Ler TXT e converter em IDs
+    # ===============================
+    def _parse_txt(self, file_path):
+        deck_cards = []
+
+        with open(file_path, "r", encoding="utf-8") as file:
+            for line in file:
+
+                line = line.strip()
+                if not line:
+                    continue
+
+                try:
+                    quantity, card_name = line.split(" ", 1)
+                    quantity = int(quantity)
+                except ValueError:
+                    print(f"Linha inválida: {line}")
+                    continue
+
+                card = self.repository.get_card_by_name(card_name)
+
+                if not card:
+                    print(f"Carta não encontrada: {card_name}")
+                    continue
+
+                for _ in range(quantity):
+                    deck_cards.append(card.id)
+
+        return deck_cards
 
 
 if __name__ == "__main__":

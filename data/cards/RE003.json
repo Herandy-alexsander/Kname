@@ -1,0 +1,12 @@
+{
+    "id": "RE003",
+    "name": "Alimentar Desejo",
+    "type": "reacao",
+    "cost": 0,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "Sacrifique até 1 tropa e compre 1 carta"
+    ],
+    "image": ""
+}

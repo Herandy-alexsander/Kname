@@ -1,0 +1,12 @@
+{
+    "id": "IT003",
+    "name": "O Livro Arcano",
+    "type": "item",
+    "cost": 2,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "Até uma vez no seu turno compre 1 carta"
+    ],
+    "image": ""
+}

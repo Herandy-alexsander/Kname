@@ -1,0 +1,12 @@
+{
+    "id": "TR007",
+    "name": "Dholak Morte Rubra",
+    "type": "tropa",
+    "cost": 4,
+    "power": 4,
+    "toughness": 2,
+    "effects": [
+        "Remova do jogo 1 carta da sua pilha de descarte, Dholak causa 2 de dano à tropa inimiga alvo"
+    ],
+    "image": ""
+}

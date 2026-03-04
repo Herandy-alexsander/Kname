@@ -1,0 +1,12 @@
+{
+    "id": "TR008",
+    "name": "Escudeiro Menor",
+    "type": "tropa",
+    "cost": 0,
+    "power": 0,
+    "toughness": 2,
+    "effects": [
+        "No início do seu turno descarte 1 carta do topo do seu deck"
+    ],
+    "image": ""
+}

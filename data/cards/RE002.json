@@ -1,0 +1,12 @@
+{
+    "id": "RE002",
+    "name": "Troca Instintiva",
+    "type": "reacao",
+    "cost": 1,
+    "power": 0,
+    "toughness": 0,
+    "effects": [
+        "Descarte 1 carta da mão e compre até 1 carta"
+    ],
+    "image": ""
+}

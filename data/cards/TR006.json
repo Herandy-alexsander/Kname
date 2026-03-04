@@ -1,0 +1,12 @@
+{
+    "id": "TR006",
+    "name": "Dragao Ignatius",
+    "type": "tropa",
+    "cost": 5,
+    "power": 5,
+    "toughness": 4,
+    "effects": [
+        "Quando Dragão Ignatius entra em campo destrua a tropa alvo"
+    ],
+    "image": ""
+}

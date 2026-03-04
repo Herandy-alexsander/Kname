@@ -1,0 +1,12 @@
+{
+    "id": "TR002",
+    "name": "Slime Andarilho",
+    "type": "tropa",
+    "cost": 1,
+    "power": 2,
+    "toughness": 1,
+    "effects": [
+        "Quando Slime Andarilho entra em campo você pode destruir um item"
+    ],
+    "image": ""
+}

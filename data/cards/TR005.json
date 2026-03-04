@@ -1,0 +1,12 @@
+{
+    "id": "TR005",
+    "name": "Arauto de Pulcinella",
+    "type": "tropa",
+    "cost": 5,
+    "power": 1,
+    "toughness": 4,
+    "effects": [
+        "Uma vez a cada turno você pode voltar 1 tropa de custo 1 ou menor da sua pilha de descarte para o campo"
+    ],
+    "image": ""
+}

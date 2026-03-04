@@ -1,0 +1,12 @@
+{
+    "id": "TR003",
+    "name": "Lacaio Verde",
+    "type": "tropa",
+    "cost": 1,
+    "power": 1,
+    "toughness": 2,
+    "effects": [
+        "Quando Lacaio Verde entra em campo descarte até 1 carta"
+    ],
+    "image": ""
+}

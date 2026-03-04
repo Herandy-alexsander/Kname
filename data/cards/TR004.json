@@ -1,0 +1,12 @@
+{
+    "id": "TR004",
+    "name": "Maga Aprendiz",
+    "type": "tropa",
+    "cost": 2,
+    "power": 2,
+    "toughness": 2,
+    "effects": [
+        "Quando Maga Aprendiz entra em campo compre 1 carta e descarte 1 carta"
+    ],
+    "image": ""
+}
